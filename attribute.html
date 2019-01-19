@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		/*a[target]{
+			color:red
+		}*/
+		p[title~=city]{
+			color:green;
+		}
+		a[href^="http"]{
+			color:blue;
+
+		}
+		a[href^="https"]{
+			color:brown;
+		}
+		a[href$=".pdf"] {
+			background-color: lightblue;
+			width: 300px;
+			height: 30px;
+			padding: 20px;
+			border-radius: 20px;
+			text-decoration:none;
+		}
+
+	</style>
+</head>
+<body>
+<a href="https://www.google.com" target="_blank">Google</a>
+<a href="http://www.facebook.com">Facebook</a>
+<p title="enter your city">My city is blore</p>
+<br>
+<a href="CSSSelectors.pdf" download>CSS Selectors</a>
+
+</body>
+</html>
